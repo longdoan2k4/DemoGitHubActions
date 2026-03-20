@@ -13,7 +13,7 @@ jobs:
         run: echo "Hello HUTECH!"     #Lệnh in ra màn hình
 
       - name: Bước 2 - Tải code
-        uses: actions/checkout@v6.2.2     #Robot tự động copy code vào máy ảo
+        uses: actions/checkout@v6     #Robot tự động copy code vào máy ảo
 
       - name: Bước 3 - Đọc file
         run: cat README.md            #Mở nội dung file README.md để xem
